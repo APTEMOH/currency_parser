@@ -1,0 +1,56 @@
+/tmp
+/out-tsc
+
+/.pnp
+.pnp.js
+
+.vscode/*
+
+.git
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+*.tscache
+*.d.ts
+*.d.ts.map
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Telegraf specific
+local_data/
+
+package-lock.json
